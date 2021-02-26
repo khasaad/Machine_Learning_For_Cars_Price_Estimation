@@ -32,6 +32,15 @@ param_grid = {'n_estimators': n_estimators,
     <li>Kfold variance : 0.00016891532607397417</li>
   </ul>
     <li>GridSearchCV</li>
+  <p>The best parameters : {'bootstrap': False, 'max_depth': 18, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 4, 'n_estimators': 177}</p>
+  <ul>
+    <li>r2 score test : 0.9637362114332027</li>
+    <li>r2 score train : 0.9869405252800916</li>
+    <li>Kfold score mean : 93.0294724497663</li>
+    <li>Kfold std deviation : 9.173900139968046</li>
+    <li>Kfold accuracy for each kfold : [0.84484988 0.68635042 0.85842274 0.6510353  0.66081528]</li>
+    <li>Kfold variance : 0.008416044377810572</li>
+  </ul>
   </ul>
 </ul>
 
