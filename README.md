@@ -22,8 +22,15 @@ param_grid = {'n_estimators': n_estimators,
 
   <ul>
     <li>RandomisedSearchCV</li>
-  <p>{'n_estimators': [100, 111, 122, 133, 144, 155, 166, 177, 188, 200], 'max_features': [None, 'auto', 'sqrt'], 'max_depth': [14, 18], 'min_samples_split': [2, 3, 4], 'min_samples_leaf': [1, 2], 'bootstrap': [True, False]}
-</p>
+  <p>The best parameters  : {'n_estimators': 188, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 18, 'bootstrap': False}</p>
+  <ul>
+    <li>r2 score test : 0.9635002634366892</li>
+    <li>r2 score train : 0.990595627915352</li>
+    <li>Kfold score mean : 93.6180174277052</li>
+    <li>Kfold std deviation : 1.2996742902511158</li>
+    <li>Kfold accuracy for each kfold : [0.94004127 0.93730947 0.91119167 0.94759439 0.94476407]</li>
+    <li>Kfold variance : 0.00016891532607397417</li>
+  </ul>
     <li>GridSearchCV</li>
   </ul>
 </ul>
