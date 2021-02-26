@@ -6,12 +6,12 @@
 <ul>
   <li>KFold and cross validation</li>
   <li>RandomForestRegressor</li>
-  <p> n_estimators = [int(x) for x in np.linspace(start=100, stop=200, num=10)]
-  max_features = [None, 'auto', 'sqrt']
-  max_depth = [10, 14, 18]
-  min_samples_split = [2, 3, 4]
-  min_samples_leaf = [1, 2]
-  bootstrap = [True, False] </p>
+  n_estimators = [int(x) for x in np.linspace(start=100, stop=200, num=10)] </br>
+  max_features = [None, 'auto', 'sqrt']</br>
+  max_depth = [10, 14, 18]</br>
+  min_samples_split = [2, 3, 4]</br>
+  min_samples_leaf = [1, 2]</br>
+  bootstrap = [True, False]</br>
 
 param_grid = {'n_estimators': n_estimators,
 'max_features': max_features,
