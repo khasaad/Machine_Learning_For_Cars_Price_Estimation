@@ -22,6 +22,8 @@ param_grid = {'n_estimators': n_estimators,
 
   <ul>
     <li>RandomisedSearchCV</li>
+  <p>{'n_estimators': [100, 111, 122, 133, 144, 155, 166, 177, 188, 200], 'max_features': [None, 'auto', 'sqrt'], 'max_depth': [14, 18], 'min_samples_split': [2, 3, 4], 'min_samples_leaf': [1, 2], 'bootstrap': [True, False]}
+</p>
     <li>GridSearchCV</li>
   </ul>
 </ul>
